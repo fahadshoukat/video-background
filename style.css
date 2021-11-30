@@ -27,3 +27,37 @@ h1 {
     color: white;
 }
 
+.play-pause-btn {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s linear;
+}
+
+.play-pause-btn span {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: capitalize;
+    font-size: 13px;
+    color: #49a6e9;
+}
+
+.switch {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background: #49a6e9;
+    border-radius: 8px;
+    display: block;
+    margin: 0;
+    transition: 0.3s linear;
+}
