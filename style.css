@@ -91,3 +91,8 @@ h1 {
     z-index: 999;
     transition: 0.3s linear;
 }
+
+.hide-preLoaded {
+    visibility: hidden;
+    z-index: -999;
+}
