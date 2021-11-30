@@ -85,6 +85,9 @@ h1 {
     right: 0;
     display: grid;
     place-items: center;
-    background: transparent;
-
+    background: #ECF0F1;
+    align-items: center;
+    visibility: visible;
+    z-index: 999;
+    transition: 0.3s linear;
 }
