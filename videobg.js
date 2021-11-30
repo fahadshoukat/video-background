@@ -12,4 +12,11 @@ btn.addEventListener("click", function(){
         btn.classList.add("slide");
         video.pause();
     }
+});
+
+const preLoaded = document.querySelector(".preLoaded");
+
+window.addEventListener("load", function(){
+
+    preLoaded.classList.add("hide-preLoaded");
 })
